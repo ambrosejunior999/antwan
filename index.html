@@ -19,46 +19,126 @@
     width:21vh ;
     border:2px solid rgb(2, 2, 155) ;
     margin-top: 7px;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(8, 8, 146);
     border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+#getstarted:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.685);
+}
+#signin:hover{
+    color: rgb(9, 9, 194);
+    transition: 0.2s;
+}
+#dropdown1{
+width:230px ;
+height:200px ;
+background-color: white;
+border-radius:10px ;
+border: 1px solid black;
+position: absolute;
+margin-left: 200px;
+margin-bottom: 2px;
+display: none;
+}
+#dropdown2{
+    position: absolute;  
+    width:230px ;
+    height:200px ;
+    background-color: white;
+    border-radius:10px ;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-bottom: 2px;
+    display: none;
+}
+#dropdown3{
+    position: absolute;
+    width:230px ;
+    height:200px ;
+    background-color: white;
+    border-radius:10px ;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 400px;
+    margin-bottom: 2px;
+    display: none;
+}
+#dropdown4{
+    position: absolute;
+    width:230px ;
+    height:200px ;
+    background-color: white;
+    border-radius:10px ;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 550px;
+    margin-bottom: 2px;
+    display: none;
 }
     </style>
 </head>
 <body>
     <div>
         <nav id="nav">
-         <img src="download (1).png" alt=""> 
-         <section style="margin-left:100px;display: flex;justify-content: space-between;" id="section">
-           <h3 style="margin-left: 3vh;" onmouseover="h31()" id="h31">Product</h3> 
-           <h3 style="margin-left: 3vh;" onmouseover="h32()" id="h32">Improve</h3> 
-           <h3 style="margin-left: 3vh;" onmouseover="h33()" id="h33">Customers</h3> 
-           <h3 style="margin-left: 3vh;" onmouseover="h34()" id="h34">Company</h3> 
-           <h3 style="margin-left: 3vh;">Pricing</h3> 
+         <img src="download (1).png" alt="" style="margin-left: 5vh;height: 12vh;"> 
+         <section style="margin-left:100px;display: flex;justify-content: space-between;font-weight: 100;" id="section">
+           <h3 style="margin-left: 5vh;" onmouseover="h31()" onclick="h11()" id="h31">Product</h3>        
+           <h3 style="margin-left: 5vh;" onmouseover="h32()" onclick="h12()"  id="h32">Improve</h3>         
+           <h3 style="margin-left: 5vh;" onmouseover="h33()" onclick="h13()"  id="h33">Customers</h3>       
+           <h3 style="margin-left: 5vh;" onmouseover="h34()" onclick="h14()"  id="h34">Company</h3>   
+           <h3 style="margin-left: 5vh;">Pricing</h3> 
         </section>  
         <section style="display: flex;margin-left: 60vh;">
-<button style="background-color:transparent ;border: none;" id="signin">Sign in</button>
+<button style="background-color:transparent ;border: none;font-weight: bolder;" id="signin">Sign in</button>
 <button id="getstarted">GET STARTED</button>
         </section>
         </nav>
+        <div id="dropdown1">
+
+        </div> 
+        <div id="dropdown2">
+
+        </div>
+        <div id="dropdown3">
+
+        </div>
+        <div id="dropdown4">
+
+        </div>
     </div>
 </body>
 </html>
 <script>
-// let a = prompt('ENTER YOUR FIRST NUMBER');
-// let b = prompt('ENTER YOUR SECOND NUMBER');
-// let c = a-b;
-// console.log(c)
+    
 function h31() {
-  
+  document.getElementById('dropdown1').style.display = 'inherit'
+  document.getElementById('dropdown1').style.transition = '0.3s'
+}
+function h11() {
+    document.getElementById('dropdown1').style.display = 'none'
 }
 function h32() {
-    
+  document.getElementById('dropdown2').style.display = 'inherit'
+  document.getElementById('dropdown2').style.transition = '0.3s'
+}
+function h12() {
+    document.getElementById('dropdown2').style.display = 'none'
 }
 function h33() {
-   
+  document.getElementById('dropdown3').style.display = 'inherit'
+  document.getElementById('dropdown3').style.transition = '0.3s'
+}
+function h13() {
+    document.getElementById('dropdown3').style.display = 'none'
 }
 function h34() {
-  
+  document.getElementById('dropdown4').style.display = 'inherit'
+  document.getElementById('dropdown4').style.transition = '0.3s'
+}
+function h14() {
+    document.getElementById('dropdown4').style.display = 'none'
 }
 </script>    
