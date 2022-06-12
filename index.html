@@ -10,8 +10,18 @@
     display: flex;
     width:225vh ;
     height:10vh ;
-    border: 1px solid black;
+    border: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#getstarted{
+    background-color: transparent;
+    height:7vh ;
+    width:21vh ;
+    border:2px solid rgb(2, 2, 155) ;
+    margin-top: 7px;
+    font-weight: bold;
+    color: rgb(8, 8, 146);
+    border-radius: 5px;
 }
     </style>
 </head>
@@ -19,13 +29,17 @@
     <div>
         <nav id="nav">
          <img src="download (1).png" alt=""> 
-         <div>
-           <h3>Product</h3> 
-           <h3>Improve</h3> 
-           <h3>Customers</h3> 
-           <h3>Company</h3> 
-           <h3>Pricing</h3> 
-        </div>  
+         <section style="margin-left:100px;display: flex;justify-content: space-between;" id="section">
+           <h3 style="margin-left: 3vh;" onmouseover="h31()" id="h31">Product</h3> 
+           <h3 style="margin-left: 3vh;" onmouseover="h32()" id="h32">Improve</h3> 
+           <h3 style="margin-left: 3vh;" onmouseover="h33()" id="h33">Customers</h3> 
+           <h3 style="margin-left: 3vh;" onmouseover="h34()" id="h34">Company</h3> 
+           <h3 style="margin-left: 3vh;">Pricing</h3> 
+        </section>  
+        <section style="display: flex;margin-left: 60vh;">
+<button style="background-color:transparent ;border: none;" id="signin">Sign in</button>
+<button id="getstarted">GET STARTED</button>
+        </section>
         </nav>
     </div>
 </body>
@@ -35,4 +49,16 @@
 // let b = prompt('ENTER YOUR SECOND NUMBER');
 // let c = a-b;
 // console.log(c)
+function h31() {
+  
+}
+function h32() {
+    
+}
+function h33() {
+   
+}
+function h34() {
+  
+}
 </script>    
