@@ -1,9 +1,10 @@
 #nav{
     display: flex;
-    width:225vh ;
+    width:203vh ;
     height:10vh ;
     border: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
 }
 #getstarted{
     background-color: transparent;
@@ -17,13 +18,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
     font-size: 17px;
+    flex-wrap: wrap;
 }
 #getstarted:hover{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.685);
+    flex-wrap: wrap;
 }
 #signin:hover{
     color: rgb(9, 9, 194);
     transition: 0.2s;
+    flex-wrap: wrap;
 }
 #dropdown1{
 width:240px ;
@@ -35,6 +39,7 @@ margin-left: 200px;
 margin-bottom: 2px;
 display: none;
 box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+flex-wrap: wrap;
 }
 #dropdown2{
     position: absolute;  
@@ -46,6 +51,7 @@ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     margin-bottom: 2px;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    flex-wrap: wrap;
 }
 #dropdown3{
     position: absolute;
@@ -58,6 +64,7 @@ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     margin-bottom: 2px;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    flex-wrap: wrap;
 }
 #dropdown4{
     position: absolute;
@@ -70,6 +77,7 @@ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     margin-bottom: 2px;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    flex-wrap: wrap;
 
 }
 #btnn{
@@ -81,6 +89,7 @@ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     background-color: rgb(13, 13, 146);
     border: 1px solid blue;
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 #mess{
     margin-left: 430px;
@@ -93,4 +102,10 @@ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     position:fixed ;
     margin-top: 5vh;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 40px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    flex-wrap: wrap;
+}
+#logo{
+    width:203vh ;
+    height:23vh ;
+    border: 1px solid black;
 }
