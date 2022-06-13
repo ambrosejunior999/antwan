@@ -16,6 +16,7 @@
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
+    font-size: 15px;
 }
 #getstarted:hover{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.685);
@@ -29,11 +30,11 @@ width:230px ;
 height:200px ;
 background-color: white;
 border-radius:10px ;
-border: 1px solid black;
 position: absolute;
 margin-left: 200px;
 margin-bottom: 2px;
 display: none;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 #dropdown2{
     position: absolute;  
@@ -41,10 +42,10 @@ display: none;
     height:200px ;
     background-color: white;
     border-radius:10px ;
-    border: 1px solid black;
     margin-left: 300px;
     margin-bottom: 2px;
     display: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 #dropdown3{
     position: absolute;
@@ -52,11 +53,11 @@ display: none;
     height:200px ;
     background-color: white;
     border-radius:10px ;
-    border: 1px solid black;
     position: absolute;
     margin-left: 400px;
     margin-bottom: 2px;
     display: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 #dropdown4{
     position: absolute;
@@ -64,9 +65,32 @@ display: none;
     height:200px ;
     background-color: white;
     border-radius:10px ;
-    border: 1px solid black;
     position: absolute;
     margin-left: 550px;
     margin-bottom: 2px;
     display: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+#btnn{
+    width: 175px;
+    height: 55px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(13, 13, 146);
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+#mess{
+    margin-left: 430px;
+    width:90px ;
+    height:55px ;
+    font-size: 40px;
+    font-weight:bolder ;
+    background-color:transparent ;
+    border:none ;
+    position:fixed ;
+    margin-top: 5vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 40px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }

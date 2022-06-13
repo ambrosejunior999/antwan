@@ -17,13 +17,13 @@
         <nav id="nav">
          <img src="download (1).png" alt="" style="margin-left: 5vh;height: 12vh;"> 
          <section style="margin-left:100px;display: flex;justify-content: space-between;font-weight: 100;" id="section">
-           <h3 style="margin-left: 5vh;" onmouseover="h31()" onclick="h11()" id="h31">Product</h3>        
-           <h3 style="margin-left: 5vh;" onmouseover="h32()" onclick="h12()"  id="h32">Improve</h3>         
-           <h3 style="margin-left: 5vh;" onmouseover="h33()" onclick="h13()"  id="h33">Customers</h3>       
-           <h3 style="margin-left: 5vh;" onmouseover="h34()" onclick="h14()"  id="h34">Company</h3>   
+           <h3 style="margin-left: 5vh;" onmouseover="h31()" onclick="h11()" onmouseleave="h01()" id="h31">Product</h3>        
+           <h3 style="margin-left: 5vh;" onmouseover="h32()" onclick="h12()" onmouseleave="h02()" id="h32">Improve</h3>         
+           <h3 style="margin-left: 5vh;" onmouseover="h33()" onclick="h13()" onmouseleave="h03()" id="h33">Customers</h3>       
+           <h3 style="margin-left: 5vh;" onmouseover="h34()" onclick="h14()" onmouseleave="h04()" id="h34">Company</h3>   
            <h3 style="margin-left: 5vh;">Pricing</h3> 
         </section>  
-        <section style="display: flex;margin-left: 60vh;">
+        <section style="display: flex;margin-left: 50vh;">
 <button style="background-color:transparent ;border: none;font-weight: bolder;" id="signin">Sign in</button>
 <button id="getstarted">GET STARTED</button>
         </section>
@@ -41,6 +41,21 @@
 
         </div>
     </div>
+    <img src="images.png" alt="" style="position: absolute;width: 100px;height: 110px;z-index: 1;">
+    <div style="display: flex;">
+      
+        <div style="margin-left: 10vh;margin-top: 10vh;">          
+<h1 style="font-size: 52px;z-index: 0;"><span style="color: blue;">Instant</span> Git Repo Analysis</h1>
+<h2 style="font-size: 36px;"><span style="color: blue;">Discover</span> Git Your Dashboard in Minutes</h2>
+<p style="font-size: 20px;">Start leading your organization with real-time metrics from Jira &<br> Git in minutes. Identify dev pipeline bottlenecks and automate<br> continuous improvement with observability and orchestration by<br> LinearB.</p>
+<button id="btnn">GET STARTED</button>
+</div>
+<div>
+    <img src="Group-1339.webp" alt="" style="width: 500px;height: 450px;margin-left: 15vh;">
+</div>
+    </div>
+    <img src="max5.png" alt="" style="width: 250px;height: 130px;margin-left: 75vh;">
+    <button id="mess" onclick="care()">💬</button>
 </body>
 </html>
 <script src="index.js">
