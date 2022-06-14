@@ -1,6 +1,6 @@
 #nav{
     display: flex;
-    width:203vh ;
+    width:222vh ;
     height:10vh ;
     border: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -91,6 +91,13 @@ flex-wrap: wrap;
     border-radius: 5px;
     flex-wrap: wrap;
 }
+#btnn:hover{
+    border: 1px solid blue;
+    font-size: 19px;
+    width: 179px;
+    background-color: rgb(5, 5, 66);
+    transition:ease-in-out 0.4s;
+}
 #mess{
     margin-left: 430px;
     width:90px ;
@@ -107,5 +114,6 @@ flex-wrap: wrap;
 #logo{
     width:203vh ;
     height:23vh ;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.45) ;
 }

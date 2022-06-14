@@ -33,6 +33,6 @@ function h31() {
    if(care ='yes'){
        alert('PLS WAIT AS SOMEONE WILL GET IN TOUCH WITH YOU SOON')
    }else{
-
+alert('WHY YOU CON CLICK AM IN THE FIRST')
    }
   }
