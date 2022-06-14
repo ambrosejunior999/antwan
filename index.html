@@ -7,18 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
     <div>
         <nav id="nav">
          <img src="download (1).png" alt="" style="margin-left: 5vh;height: 12vh;"> 
          <section style="margin-left:100px;display: flex;justify-content: space-between;font-weight: 100;" id="section">
-           <h3 style="margin-left: 5vh;" onmouseover="h31()" onclick="h11()" onmouseleave="h01()"  id="h31">Product</h3>        
+           <h3 style="margin-left: 5vh;" onmouseover="h31()" onclick="h01()" onmouseleave="h01()"  id="h31">Product</h3>        
            <h3 style="margin-left: 5vh;" onmouseover="h32()" onclick="h12()" onmouseleave="h02()" id="h32">Improve</h3>         
            <h3 style="margin-left: 5vh;" onmouseover="h33()" onclick="h13()" onmouseleave="h03()" id="h33">Customers</h3>       
            <h3 style="margin-left: 5vh;" onmouseover="h34()" onclick="h14()" onmouseleave="h04()" id="h34">Company</h3>   
-           <h3 style="margin-left: 5vh;">Pricing</h3> 
-        </section>  
-        <section style="display: flex;margin-left: 50vh;">
+           <h3 style="margin-left: 5vh;" id="h35">Pricing</h3> 
+        </section> 
+        <button id="dark" onclick="dark()">⚫</button>
+        <button id="light" onclick="light()">🔘</button> 
+        <section style="display: flex;margin-left: 35vh;">
 <button style="background-color:transparent ;border: none;font-weight: bolder;" id="signin">Sign in</button>
 <button id="getstarted">SIGN UP</button>
         </section>

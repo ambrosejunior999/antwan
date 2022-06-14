@@ -6,6 +6,21 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-wrap: wrap;
 }
+#h35:hover{
+    color: blue;
+}
+#h34:hover{
+transition: 0.4s;
+}
+#h33:hover{
+    transition: 0.4s;
+}
+#h32:hover{
+    transition: 0.4s; 
+}
+#h31:hover{
+    transition: 0.4s; 
+}
 #getstarted{
     background-color: transparent;
     height:7vh ;
@@ -116,4 +131,22 @@ flex-wrap: wrap;
     height:23vh ;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     border-top: 1px solid rgba(0, 0, 0, 0.45) ;
+}
+#dropdown1 h3:hover{
+background-color: yellow;
+color: white;
+transition: 0.4s;
+}
+#dark{
+border: transparent;
+background-color: transparent;
+font-size: 22px;
+margin-bottom: 15px;
+margin-left: 20px;
+}
+#light{
+    border: transparent;
+    background-color: transparent;
+    font-size: 24px;
+    margin-bottom: 15px;
 }
