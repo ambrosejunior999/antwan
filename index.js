@@ -53,6 +53,8 @@ alert('WHY YOU CON CLICK AM IN THE FIRST')
       document.getElementById('h35').style.color = 'white'
       document.getElementById('getstarted').style.color = 'white'
       document.getElementById('getstarted').style.border = 'white'
+      document.getElementById('21').style.color = 'white'
+      document.getElementById('22').style.color = 'white'
   }
   function light() {
     document.getElementById('body').style.backgroundColor ='white'
@@ -62,5 +64,4 @@ alert('WHY YOU CON CLICK AM IN THE FIRST')
     document.getElementById('h34').style.color = 'black'
     document.getElementById('h35').style.color = 'black'
     document.getElementById('getstarted').style.color = 'blue'
-    document.getElementById('getstarted').style.border = 'blue'
   }
