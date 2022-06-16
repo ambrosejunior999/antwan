@@ -137,6 +137,21 @@ background-color: yellow;
 color: white;
 transition: 0.4s;
 }
+#dropdown2 h3:hover{
+    background-color: yellow;
+    color: white;
+    transition: 0.4s;
+    }
+    #dropdown3 h3:hover{
+        background-color: yellow;
+        color: white;
+        transition: 0.4s;
+        }
+        #dropdown4 h3:hover{
+            background-color: yellow;
+            color: white;
+            transition: 0.4s;
+            }
 #dark{
 border: transparent;
 background-color: transparent;

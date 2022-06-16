@@ -1,40 +1,60 @@
 'use strict mode'
 
 function h31() {
+  setTimeout(() => {
+    
+ 
     document.getElementById('dropdown1').style.display = 'inherit'
     document.getElementById('dropdown1').style.transition = '0.8s'
     document.getElementById('h31').style.color = 'blue'
+  },  300);
   }
   function h01() {
+    setTimeout(() => {
+      
+    
       document.getElementById('dropdown1').style.display = 'none'
       document.getElementById('h31').style.color = 'black'
+    }, 4000);
   }
   function h32() {
+    setTimeout(() => {
     document.getElementById('dropdown2').style.display = 'inherit'
     document.getElementById('dropdown2').style.transition = '0.3s'
     document.getElementById('h32').style.color = 'blue'
+  }, 300);
   }
   function h02() {
+    setTimeout(() => {
       document.getElementById('dropdown2').style.display = 'none'
       document.getElementById('h32').style.color = 'black'
+    }, 4000);
   }
   function h33() {
+    setTimeout(() => {
     document.getElementById('dropdown3').style.display = 'inherit'
     document.getElementById('dropdown3').style.transition = '0.3s'
     document.getElementById('h33').style.color = 'blue'
+  }, 300);
   }
   function h03() {
+    setTimeout(() => {
       document.getElementById('dropdown3').style.display = 'none'
       document.getElementById('h33').style.color = 'black'
+    }, 4000);
   }
   function h34() {
+    setTimeout(() => {
     document.getElementById('dropdown4').style.display = 'inherit'
     document.getElementById('dropdown4').style.transition = '0.3s'
     document.getElementById('h34').style.color = 'blue'
+  }, 300);
   }
   function h04() {
+    setTimeout(() => {
       document.getElementById('dropdown4').style.display = 'none'
       document.getElementById('h34').style.color = 'black'
+    }, 4000);
   }
   function care() {
    care =  prompt('WOULD YOU LIKE TO GET IN TOUCH WITH OUR CUSTOMER SERVICE') 
